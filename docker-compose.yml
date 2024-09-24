@@ -9,4 +9,4 @@ services:
       - NUXT_STUDENT_NAME=${STUDENT_NAME}
       - NUXT_STUDENT_NIM=${STUDENT_NIM}
     ports:
-      - "20.70.234.48:3000:3000"  # Menggunakan IP 20.70.234.48
+      - "3000:3000"  # Menggunakan IP 20.70.234.48
