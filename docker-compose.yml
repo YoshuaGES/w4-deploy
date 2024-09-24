@@ -6,4 +6,4 @@ services:
         STUDENT_NAME: "Yoshua Gichara Eliazar"
         STUDENT_NIM: "00000051375"
     ports:
-      - "20.70.234.48:8080:3000"
+      - "3000:3000"
