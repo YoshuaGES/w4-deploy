@@ -9,4 +9,4 @@ services:
       - NUXT_STUDENT_NAME=Yoshua Gichara Eliazar
       - NUXT_STUDENT_NIM=00000051375
     ports:
-      - "20.70.234.48:3000:3000"  # Menggunakan IP lokal
+      - "3000:3000"
