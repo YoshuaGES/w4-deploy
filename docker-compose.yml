@@ -6,7 +6,7 @@ services:
         STUDENT_NAME: "Yoshua Gichara Eliazar"
         STUDENT_NIM: "00000051375"
     environment:
-      - NUXT_STUDENT_NAME=${STUDENT_NAME}
-      - NUXT_STUDENT_NIM=${STUDENT_NIM}
+      - NUXT_STUDENT_NAME=Yoshua Gichara Eliazar
+      - NUXT_STUDENT_NIM=00000051375
     ports:
-      - "3000:3000"  # Menggunakan IP 20.70.234.48
+      - "20.70.234.48:3000:3000"  # Menggunakan IP lokal
