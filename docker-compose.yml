@@ -9,4 +9,4 @@ services:
       - NUXT_STUDENT_NAME=Yoshua Gichara Eliazar
       - NUXT_STUDENT_NIM=00000051375
     ports:
-      - "3000:3000"
+      - "80:3000"
